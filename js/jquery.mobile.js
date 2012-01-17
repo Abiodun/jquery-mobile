@@ -40,7 +40,10 @@ define([
 	'order!jquery.mobile.controlGroup',
 	'jquery.mobile.links',
 	'jquery.mobile.fixHeaderFooter',
-	'jquery.mobile.fixHeaderFooter.native'
+	'jquery.mobile.fixHeaderFooter.native',
+	'jquery.mobile.zoom',
+	'jquery.mobile.zoom.iosfocusfix',
+	'jquery.mobile.zoom.iosorientationfix'
 ], function() {
 	require( [ 'jquery.mobile.init' ] );
 });
